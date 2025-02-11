@@ -29,10 +29,68 @@
   </head>
   <body>
     <div class="page">
-      PROBANDO...
-      <header class="page header"></header>
-      <main class="page content">
-        <section class="page content-recepies"></section>
+      <header class="header">
+        <nav class="nav">
+          <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#">Recetas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Reservar una mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div class="header__title">
+            <span class="header__title span-accent">
+              <h1 class="header__title span-accent">Café de especialidad</h1>
+            </span>
+            <h1 class="header__title">en Triple Peaks</h1>
+          </div>
+          <p class="header__description">
+            ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+            para darte energía y motivar tu creatividad.
+          </p>
+        </div>
+        <img class="header__image" src="./images/inside_coffee_shop.png" />
+        <div class="header__footer">
+          <div class="header__footer-horario">
+            <p class="header__footer-horario">Horario:</p>
+            <p class="header__footer-horario">
+              Lunes a Viernes (de 10:00h a 19:00h)
+            </p>
+            <p class="header__footer-horario">
+              Sábados y Domingos (de 11:00h a 18:00h)
+            </p>
+          </div>
+          <p class="header__footer-direction">
+            Avenida del Éxito 200, Ciudad Triple Peaks
+          </p>
+        </div>
+      </header>
+      <main class="recepies">
+        <section class="recepies__content">
+          <h1 class="recepies__content-title">Recetas</h1>
+          <h2 class="recepies__content-subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks
+          </h2>
+          <section class="recepies__content-videos">
+            <div class="recepies__content-video-items">
+              <iframe width="480" height="273" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=pAjbwt5ImrPxs2mn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </iframe>
+              <h2 class="recepies__content-video-caption">Receta en Aeropress ~5 min</h2>
+            </div>
+            <div class="recepies__content-video-items">
+              <iframe width="480" height="273" src="https://www.youtube.com/embed/st571DYYTR8?si=KdaDy6TYiWHwEV60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <h2 class="recepies__content-video-caption">Receta en cafetera francesa ~15 min</h2>
+            </div>
+          </section>
+        </section>
         <section class="page content-reservation"></section>
       </main>
       <footer class="page footer"></footer>
