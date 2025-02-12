@@ -75,7 +75,6 @@ a:any-link {
 }
 
 .header__title {
-  margin: 0;
   font-family: "inter";
   font-style: normal;
   font-weight: 500;
@@ -83,7 +82,9 @@ a:any-link {
   line-height: 72px;
   max-width: 709px;
   letter-spacing: -1px;
-  margin-bottom: auto;
+  margin-top: 183px;
+  margin-left: 80px;
+  margin-bottom: 0;
 }
 
 .span-accent {
@@ -95,14 +96,6 @@ a:any-link {
   color: #2f80ed;
 }
 
-.header__image {
-  position: absolute;
-  right: 5px;
-  top: 124px;
-  width: 646px;
-  height: 568px;
-}
-
 .header__description {
   font-family: "Noto Serif";
   font-style: normal;
@@ -110,7 +103,16 @@ a:any-link {
   line-height: 30px;
   max-width: 683px;
   margin-top: 28px;
+  margin-left: 80px;
   margin-bottom: auto;
+}
+
+.header__image {
+  position: absolute;
+  right: 5px;
+  top: 124px;
+  width: 646px;
+  height: 568px;
 }
 
 .header__footer {
