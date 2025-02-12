@@ -16,7 +16,7 @@ html {
 
 .header {
   background-image: url("../images/background_header.svg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   position: relative;
@@ -24,16 +24,6 @@ html {
   max-height: 800px;
   display: flex;
   flex-direction: column;
-}
-
-.header__content {
-  margin-top: 124px;
-  margin-left: 80px;
-  margin-bottom: 230px;
-}
-
-.header__content .logo {
-  position: relative;
 }
 
 .nav {
@@ -113,6 +103,7 @@ a:any-link {
   top: 124px;
   width: 646px;
   height: 568px;
+  margin: 0;
 }
 
 .header__footer {
@@ -128,26 +119,26 @@ a:any-link {
   padding-right: 80px;
   padding-left: 80px;
   padding-bottom: 40px;
-  margin-top: auto;
   position: relative;
+  margin-top: auto;
 }
 
 .header__paragraph {
   margin: 0;
 }
 
-.content {
+.recipes {
   margin: 0;
   background-image: url("../images/background_recipes.svg");
   background-color: #0a2750;
   background-size: cover;
   color: white;
+  position: relative;
 }
 
-.recepies__title {
+.recipes__title {
   max-width: 580px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding-top: 100px;
   padding-left: 80px;
   font-family: "inter";
@@ -157,7 +148,7 @@ a:any-link {
   line-height: 52px;
 }
 
-.recepies__subtitle {
+.recipes__subtitle {
   padding-left: 80px;
   padding-top: 24px;
   max-width: 438px;
@@ -169,7 +160,7 @@ a:any-link {
   line-height: 30px;
 }
 
-.recepies__videos {
+.recipes__videos {
   padding-top: 80px;
   display: flex;
   justify-content: center;
@@ -177,7 +168,7 @@ a:any-link {
   padding-bottom: 215px;
 }
 
-.recepies__video-items {
+.recipes__video-items {
   font-family: "inter";
   font-style: normal;
   font-weight: 500;
@@ -185,7 +176,7 @@ a:any-link {
   line-height: 30px;
 }
 
-.recepies__video-caption {
+.recipes__video-caption {
   font-family: "inter";
   font-style: normal;
   font-weight: 500;
@@ -195,7 +186,7 @@ a:any-link {
   margin: 0;
 }
 
-.recepies__iframe {
+.recipes__iframe {
   border: 0;
   width: 480px;
   height: 273px;
