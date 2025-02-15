@@ -41,6 +41,7 @@
 .footer__header {
   color: #ffffff;
   margin: 0;
+  margin-bottom: 20px;
   font-family: "inter";
   font-style: normal;
   font-weight: bold;
@@ -51,16 +52,17 @@
 }
 
 .footer__list {
+  margin: 0;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   list-style: none;
   margin: 0;
+  gap: 16px;
 }
 
 .footer__list-item {
-  margin-top: 20px;
-  margin-bottom: 16px;
+  margin: 0;
   color: #ffffff;
   font-family: "inter";
   font-style: normal;
