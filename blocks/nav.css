@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 80px;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  margin-top: 0;
+  column-gap: 20px;
+  list-style-type: none;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+a:link {
+  color: black;
+  text-decoration-line: none;
+}
+
+.nav__link:visited {
+  color: black;
+  text-decoration-line: none;
+}

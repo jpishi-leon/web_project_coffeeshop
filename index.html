@@ -12,7 +12,6 @@
     <meta name="keywords" content="Cafetería, proyecto," />
     <title>Café espresso</title>
     <link rel="shortcut icon" href="./favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,7 +43,7 @@
               <a class="nav__link" href="#reservation">Reservar una mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contactos</a>
+              <a class="nav__link" href="#contactos">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -106,13 +105,13 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <h3 class="content__recipes-video-caption">
+              <h3 class="recipes__video-caption">
                 Receta en cafetera francesa ~15 min
               </h3>
             </div>
           </section>
         </section>
-        <section class="reservation" id="#reservation">
+        <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
@@ -172,7 +171,32 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contactos">
+        <content class="footer__content">
+          <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h3 class="footer__header">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/facebook_white.svg"
+                />
+                <a class="footer__social-link" href="#">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/instagram_white.svg"
+                />
+                <a class="footer__social-link" href="#">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </content>
+        <p class="footer__copyright">©2025 Jun Andrade Sashida</p>
+      </footer>
     </div>
   </body>
 </html>
